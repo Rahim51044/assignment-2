@@ -133,24 +133,30 @@ ul li a{
     .btn-nav{
         display: none;
     }
+    /* banner media query */
+    .banner-container{
+        flex-direction:column-reverse;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .banner-hero-pic{
+        width: calc(100% - 20px);
+        padding-left:10px;
+    }
+    /* .banner-title, .banner-description{
+        text-align: center;
+    }
+    .btn-banner{
+        margin: 16px 110px;
+    } */
+    .banner-title-part{
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+     }
+   
 }
 
-/* banner media query */
-.banner-container{
-    flex-direction:column-reverse;
-    padding: 10px;
-    margin-top: 50px;
-}
-.banner-hero-pic{
-    width: calc(100% - 20px);
-    padding-left:10px;
-}
-.banner-title, .banner-description{
-    text-align: center;
-}
-.btn-banner{
-    margin: 16px 110px;
-}
 
 /* desktop query */
 @media screen and (min-width: 576px) and (max-width: 1440px) {
