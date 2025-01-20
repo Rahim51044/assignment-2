@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+         /* Navbar style */  
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 140px 20px 140px;
+}
+/* nav-pic-and-small-title style */
+.nav-pic-and-small-title{
+    display: flex;
+    /* justify-content:flex-start; */
+    align-items: center;
+}
+.nav-pic{
+    width: 52px;
+    height: 62px;
+}
+.nav-school{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+/* nav list style */
+.nav-list ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin-right: 32px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.home{
+    font-weight: bold;
+    color: orange;
+}
+.about{
+    font-weight: 500;
+    color: skyblue;
+}
+.facilities{
+    font-weight: 500;
+    color: #05D4DF;
+}
+.admission{
+    font-weight: 500;
+    color: #5D58EF;
+}
+
+/* btn-nav style */
+.btn-nav{
+    padding: 10px 60px 10px 60px;
+    border: none;
+    border-radius: 12px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+/* Navbar Finished */
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0;
+    }
+    .nav-container{
+        padding: 10px;
+        border: 1px solid #ffa500;
+        /* margin-left: 0px; */
+        
+    }
+    .nav-school{
+        display: none;
+
+    }
+    .nav-list{
+        display: none;
+    }
+    .btn-nav{
+        display: none;
+    }
+}
