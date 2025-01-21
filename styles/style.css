@@ -77,6 +77,7 @@ ul li a{
     display: flex;
     gap: 50px;
     padding: 0 140px;
+    border-bottom: 1px solid black;
 }
 
 .banner-title{
@@ -103,12 +104,121 @@ ul li a{
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 .banner-title-part{
     padding: 110px 0px;
 }
 
+/* banner-style-end */
+
+
+/* Cards style start */
+
+.section-1{
+    background-color:rgba(121, 112, 133, 0.05);
+    border-bottom: 1px solid black;
+}
+.forword-section{
+    margin-top: -735px;
+}
+
+.forword-section{
+    display: flex;
+    gap: 28px;
+    padding: 0 140px 80px 140px;
+}
+
+.cards-title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    /* margin-top: 60px; */
+}
+.card-1{
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 19px;
+    background-color: #DEF5FF;
+    background-image: linear-gradient(rgba(222, 245, 255, 1));
+    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+}
+
+.card-2{
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 19px;
+    background-color: #FFF4DC;
+    background-image: linear-gradient(rgba(255, 244, 220, 1));
+    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+}
+.card-3{
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 19px;
+    background-color: #F2E8FF;
+    background-image: linear-gradient(rgba(238, 225, 255, 1));
+    box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+}
+.card-1-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+.card-1-description{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: #808080;
+    margin-bottom: 33px;
+    padding: 30px 40px;
+}
+.btn-card-1, .btn-card-2, .btn-card-3{
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    color: #64C8FF;
+    margin-bottom: 50px;
+}
+.btn-card-2{
+    color: #F0AA00;
+}
+.btn-card-3{
+    color: #8700FF;
+}
+.card-1-pic{
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+
+.icon-1{
+    width: 60px;
+    height: 60px;
+    background-color: #F0AA00;
+    border-radius: 50%;
+    text-align: center;
+}
+.icon-2{
+    width: 60px;
+    height: 60px;
+    background-color: #F0AA00;
+    border-radius: 50%;
+    text-align: center;
+}
+img{
+    margin-bottom: -25px;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
 
 
 
@@ -118,10 +228,15 @@ ul li a{
         margin: 0;
     }
     .nav-container{
-        padding: 10px;
+        padding: 30px;
         border: 1px solid #ffa500;
         /* margin-left: 0px; */
         
+    }
+    .banner-title{
+        font-size: 2rem;
+        line-height: 40px;
+        margin-bottom: 24px;
     }
     .nav-school{
         display: none;
@@ -154,7 +269,23 @@ ul li a{
         margin: 0 auto;
         text-align: center;
      }
-   
+
+     /* banner-section */
+     .forword-section{
+        flex-direction: column;
+        padding: 750px 0px 0px 0px;
+        /* margin: -0; */
+        /* width: calc(100% - 10px); */
+     }
+.cards{
+    display: none;
+}
+.section-1{
+    border: no;
+}
+.banner-container{
+    border: none;
+}
 }
 
 
