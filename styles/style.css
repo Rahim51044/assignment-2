@@ -16,16 +16,20 @@
 .nav-pic-and-small-title{
     display: flex;
     /* justify-content:flex-start; */
-    align-items: center;
+    justify-content: center;
+    align-items:center
 }
 .nav-pic{
     width: 52px;
     height: 62px;
+    margin-top: -25px;
+
 }
 .nav-school{
     font-size: 2rem;
     font-weight: bold;
     line-height: 30px;
+    /* margin-bottom: -5px; */
 }
 
 /* nav list style */
@@ -35,6 +39,7 @@
 ul li {
     list-style: none;
     margin-right: 32px;
+    /* margin-bottom: -15px; */
 }
 ul li a{
     text-decoration: none;
@@ -285,6 +290,9 @@ img{
 }
 .banner-container{
     border: none;
+}
+.icon-container{
+    display: none;
 }
 }
 
